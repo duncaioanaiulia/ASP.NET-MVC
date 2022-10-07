@@ -8,6 +8,9 @@ namespace ASP_NET_Core_Comment_Section.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        //ControllerBase : A base class for an MVC controller without view support.
+        //Controller : A base class for an MVC controller with view support.
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
