@@ -1,9 +1,10 @@
-﻿using ASP_NET_Core_Comment_Section.Models;
-using ASP_NET_Core_Comment_Section.Service;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using WebApp_test.Model;
+using WebApp_test.Services;
 
-namespace ASP_NET_Core_Comment_Section.Controllers
+namespace WebApp_test.Controllers
 {
+
     [ApiController]
     [Route("[controller]")]
     public class Pizza4Controller : Controller
@@ -22,7 +23,7 @@ namespace ASP_NET_Core_Comment_Section.Controllers
         {
             var pizza = PizzaService.Get(id);
 
-            if(pizza == null)
+            if (pizza == null)
                 return NotFound();
 
             return pizza;

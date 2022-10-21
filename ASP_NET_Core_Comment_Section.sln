@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_NET_Core_Comment_Section", "ASP_NET_Core_Comment_Section\ASP_NET_Core_Comment_Section.csproj", "{8842B6E0-98CE-4124-AED1-7214DD5676B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP_NET_Core_Comment_Section", "ASP_NET_Core_Comment_Section\ASP_NET_Core_Comment_Section.csproj", "{8842B6E0-98CE-4124-AED1-7214DD5676B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_test", "WebApp_test\WebApp_test.csproj", "{01B0080C-937B-4420-BB5B-B6FC6196F6C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8842B6E0-98CE-4124-AED1-7214DD5676B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8842B6E0-98CE-4124-AED1-7214DD5676B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8842B6E0-98CE-4124-AED1-7214DD5676B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B0080C-937B-4420-BB5B-B6FC6196F6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B0080C-937B-4420-BB5B-B6FC6196F6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B0080C-937B-4420-BB5B-B6FC6196F6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B0080C-937B-4420-BB5B-B6FC6196F6C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
